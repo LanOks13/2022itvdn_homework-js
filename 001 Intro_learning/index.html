@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      div {
+        background-color: rgb(46, 236, 71);
+        margin: 20px;
+        padding: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p>Слава Україні!!!</p>
+      <a href="./page_2.html">Героям Слава!!!</a>
+    </div>
+    <span>
+      <a href="./page_3.html">Go to Page-3</a>
+    </span>
+
+    <!-- <script>
+      let div = document.querySelector("div");
+      div.addEventListener("click", function () {
+        div.innerText = "Героям Слава!";
+      });
+    </script> -->
+
+    <script>
+      let p = document.querySelector("p");
+      p.addEventListener("click", function () {
+        p.innerText = "Слава Нації!!!";
+      });
+    </script>
+
+    <script>
+      let a = document.querySelector("a");
+      a.addEventListener("click", function () {
+        a.innerText = "Смерть ворогам!!!";
+      });
+    </script>
+  </body>
+</html>
